@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora PLR</title></head>
+<link rel="stylesheet" href="css/estilo.css">
+<script src="plr.js"></script>
+<body>
+<div class="container">
+    <h2><center>Calculadora do PLR</center></h2>
+    <form id="plrForm">
+        <label for="nota">Digita tua nota da avaliação de desempenho:</label>
+        <input type="text" id="nota" name="nota" required autocomplete="off"><br>
+        <label for="salario">Digita o teu salário de dezembro de 2023:</label>
+        <input type="text" id="salario" name="salario" required autocomplete="off"><br>
+        <label for="meses_trabalhados">Quantos meses tu trabalhou até final de 2023 :</label>
+        <input type="number" id="meses_trabalhados" name="meses_trabalhados" required><br>
+        <input type="submit" value="Calcular PLR">
+    </form>
+    <div id="resultado"></div>
+</div>
